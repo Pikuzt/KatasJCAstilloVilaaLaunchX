@@ -10,9 +10,23 @@ header{
     transition: all 0;
     text-align: center;
 }
+
+.header_menu img{
+    max-width: 10%;
+    border-radius:500px;
+    width: 10%;
+    height: 20%;
+    position: absolute;
+    left:8px;
+    top:8px;
+    transform: rotate(-15deg);
+    z-index:7;
+
+}
+
 .header_menu nav{
     display: flex;
-    justify-content:left;
+    justify-content:right;
     flex-wrap: nowrap;
     align-items:center;
     }
@@ -105,5 +119,5 @@ header{
     }
 
     .section_Pedido{
-        width50%
+        width:100%
     }
